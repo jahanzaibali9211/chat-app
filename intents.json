@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! Nice to meet you! How can I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Take care"],
+      "responses": ["See you later!", "Have a great day!", "Bye! Come back soon.", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+      "responses": ["You're welcome!", "Anytime!", "I'm glad I could help!"]
+    },
+    {
+      "tag": "options",
+      "patterns": ["How can you help?", "What can you do?", "What services do you provide?", "What are your abilities?"],
+      "responses": ["I can provide information, help with navigation, and much more. Just ask me anything you need!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Do you have a name?", "Who are you?", "What should I call you?"],
+      "responses": ["I'm Jahanzaib.", "You can call me Jahanzaib."]
+    },
+    {
+      "tag": "qualification",
+      "patterns": ["What is your qualification?", "Are you qualified?", "What are your qualifications?"],
+      "responses": [
+        "I am a Software Engineer.",
+        "I have a background in Software Engineering.",
+        "I'm qualified as a Software Engineer."
+      ]
+    },
+    {
+      "tag": "expertise",
+      "patterns": ["What is your expertise?", "What are you good at?", "What skills do you have?", "Are you an expert?"],
+      "responses": [
+        "I know a lot about HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, React JS, MongoDB, C#, and C.",
+        "I have expertise in developing WordPress websites, creating custom-coded solutions, and crafting personalized web experiences."
+      ]
+    },
+    {
+      "tag": "experience",
+      "patterns": ["What is your experience?", "Tell me about your work experience", "Where have you worked before?", "What projects have you worked on?"],
+      "responses": [
+        "I have worked on various projects, including developing WordPress websites, custom web applications, and e-commerce platforms.",
+        "My experience includes working with clients to create tailored web solutions and maintaining existing web applications.",
+        "I have collaborated with teams on both front-end and back-end development projects."
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": ["What projects have you worked on?", "Can you tell me about your projects?", "Show me some of your work", "What is your portfolio?"],
+      "responses": [
+        "I have worked on several projects like e-commerce websites, content management systems, and custom web applications. You can check out my portfolio on my website.",
+        "Some of my notable projects include a custom e-commerce platform, a blogging site, and a project management tool. Feel free to explore my portfolio for more details.",
+        "I have a diverse portfolio ranging from simple websites to complex web applications. Visit my portfolio section to see my work."
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": ["What skills do you have?", "Tell me about your skills", "What are you good at?", "What technologies do you use?"],
+      "responses": [
+        "I am proficient in HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, React JS, MongoDB, C#, and C.",
+        "My skills include front-end development, back-end development, database management, and web design.",
+        "I am experienced in using technologies such as React, Node.js, Express, and various content management systems."
+      ]
+    },
+    {
+      "tag": "availability",
+      "patterns": ["Are you available for work?", "Can you take on new projects?", "What is your availability?", "Are you open for hire?"],
+      "responses": [
+        "Yes, I am currently available for new projects and open for hire. Feel free to reach out to discuss further.",
+        "I am open for hire and ready to take on new challenges. Let's talk about your project requirements.",
+        "I have availability in my schedule and would love to work on exciting new projects or job opportunities. Contact me to get started."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact you?", "What is your contact information?", "How do I get in touch with you?", "Can I reach you via email?"],
+      "responses": [
+        "You can contact me via email at m.jahanzaiba.k@gmail.com or give me a call at 03012571742.",
+        "Feel free to reach out to me at m.jahanzaiba.k@gmail.com or call me at 03012571742.",
+        "You can get in touch with me through my email m.jahanzaiba.k@gmail.com or by calling 03012571742."
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": ["", "Nothing", "None", "I don't know", "Not sure", "Maybe", "What else?", "Try again"],
+      "responses": ["I'm sorry, I didn't catch that. Could you please rephrase?", "Can you say that again, please?", "I'm not sure I understand. Can you elaborate?"]
+    }
+  ]
+}
